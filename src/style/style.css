@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 500px) and (max-width: 768px) {
+@media screen and (min-width: 300px) and (max-width: 768px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -205,6 +205,10 @@
     font-size: 0px;
   }
 
+  .home-left button {
+    display: none;
+  }
+
   .home-left img {
     object-fit: cover;
     width: 100%;
@@ -221,11 +225,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 12% 15%;
+    padding: 16% 15%;
   }
 
   .home-infos {
-    height: 35%;
+    height: 33%;
     width: 100%;
     display: flex;
     flex-direction: column;
